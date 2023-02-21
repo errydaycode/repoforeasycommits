@@ -10,7 +10,7 @@ const App = () => {
 
   return (
         <div>
-
+            <GucciFlipFlopps/>
       {/*<Header />*/}
       {/*    <Tech />*/}
         </div>
