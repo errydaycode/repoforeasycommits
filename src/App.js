@@ -7,12 +7,13 @@ import {useState} from "react";
 
 const App = () => {
 
+let [count, setCount] = useState(0)
 
   return (
         <div>
             <GucciFlipFlopps/>
-      {/*<Header />*/}
-      {/*    <Tech />*/}
+      <Header />
+          <Tech />
         </div>
   );
 }
