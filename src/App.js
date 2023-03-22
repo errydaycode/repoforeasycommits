@@ -10,10 +10,12 @@ const App = () => {
 let [count, setCount] = useState(0)
 
   return (
-        <div>
-            <GucciFlipFlopps/>
-      <Header />
-          <Tech />
+        <div className={'divka'}>
+            {count}
+            <div>
+                <button onClick={ ()=>setCount(count +1)}>increase</button>
+                <button onClick={()=> setCount(0)}>reset</button>
+            </div>
         </div>
   );
 }
