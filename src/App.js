@@ -11,14 +11,14 @@ const App = () => {
 let [count, setCount] = useState(0)
 
     const increaseHandler=()=> {
-        setCount(count +1)
+        setCount(count +18)
     }
     const resetHandler=()=> {
         setCount(0)
     }
 
   return (
-        <div className={'divka'}>
+        <div className={'xD'}>
             {count}
             <div>
                 <SuperButton name={'increase'} callBack={increaseHandler}/>
