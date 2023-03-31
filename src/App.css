@@ -3,4 +3,11 @@
   font-size: 50px;
   font-weight: bold;
 }
+.time{
+  text-align: center;
+  font-size: 35px;
+}
 
+.sec {
+  color: red;
+}
